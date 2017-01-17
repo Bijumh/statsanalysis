@@ -308,6 +308,9 @@
                 marker:{
                     type: "item"
                 }
+            },
+            tooltip:{
+                template:function(obj){ return "<span class='quarter'>" + obj.data3 + "</span>" }
             }
         });
         
@@ -320,7 +323,7 @@
             },
             line:{color:"#4aa397"},
             tooltip:{
-                template:function(obj){ return "<span class='quarter'>" + obj.data0 + "</span>" }
+                template:function(obj){ return "<span class='quarter'>" + obj.data2 + "</span>" }
             }
         });  
         
@@ -333,7 +336,7 @@
             },
             line:{color:"#de619c"},
             tooltip:{
-                template:function(obj){ return "<span class='quarter'>" + obj.data0 + "</span>" }
+                template:function(obj){ return "<span class='quarter'>" + obj.data3 + "</span>" }
             }
         }); 
     }
