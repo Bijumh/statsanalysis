@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html> 
     <head>
+		<title>Stats Analysis</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="author" content="Biju Maharjan">
@@ -113,6 +114,8 @@
 		daysReportGridObj.setColTypes("ro,ro,ro,ro");
 		daysReportGridObj.setColSorting("str,int,int,int");
 		daysReportGridObj.init();
+		
+		dayReportFilterBtnClick();
     }
     
     /*
@@ -229,6 +232,8 @@
 		peformanceByDaysGridObj.setColTypes("ro,ro,ro,ro");
 		peformanceByDaysGridObj.setColSorting("str,int,int,int");
 		peformanceByDaysGridObj.init();
+		
+		performanceByDaytFilterBtnClick();
     }
     
     /*
